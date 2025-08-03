@@ -17,7 +17,7 @@ It includes authentication, a protected UI, and runs entirely inside Docker cont
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/ai-tools-app.git
+git clone https://github.com/idosan/ai-tools-app
 
 # 2. Navigate into the project
 cd ai-tools-app
