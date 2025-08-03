@@ -25,6 +25,17 @@ cd ai-tools-app
 # 3. Build and run everything (backend, MySQL, UI)
 docker-compose up --build
 
+### do not forget to create .env file in backend/.env
+
+PORT=3000
+DB_HOST=mysql_ai_tools
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=rootpassword
+DB_NAME=ai_tools_catalog
+JWT_SECRET=secret123
+
+
 This may take a couple of minutes the first time.
 
  Backend API running on: http://localhost:3000
