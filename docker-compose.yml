@@ -23,8 +23,7 @@ services:
       - ./backend/.env
     depends_on:
       - mysql
-    volumes:
-      - ./backend:/app
+    # הוסרה שורת ה-volume שמדרסת את node_modules
 
 volumes:
   mysql_data:
